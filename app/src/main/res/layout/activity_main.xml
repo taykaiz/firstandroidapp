@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView_miles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/miles"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <TextView
+        android:id="@+id/textView_km"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/km"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <EditText
+        android:id="@+id/editText_miles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <EditText
+        android:id="@+id/editText_km"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <Button
+        android:id="@+id/button_MilesToKm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_miles"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="513dp" />
+
+    <Button
+        android:id="@+id/button_KmToMiles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_km"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="580dp" />
+
+    <Button
+        android:id="@+id/button_sendMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:text="@string/button_sms"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="643dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

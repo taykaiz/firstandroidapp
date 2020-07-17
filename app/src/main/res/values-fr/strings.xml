@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Final_Assignment</string>
+    <string name="miles">Miles</string>
+    <string name="km">Kilomètre</string>
+    <string name="button_miles">Convertir des Miles en KM</string>
+    <string name="button_km">Convertir des KM en Miles</string>
+    <string name="button_sms">Envoyer le résultat à SMS</string>
+</resources>
